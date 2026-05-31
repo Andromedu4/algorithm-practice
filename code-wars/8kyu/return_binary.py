@@ -1,7 +1,9 @@
 # built in function
+def convert_to_binary(a,b):
+    sum = a + b
+    return bin(sum)[2:]
 
-
-
+print(convert_to_binary(2,4))
 
 """ Manual solution
 # find_power - index
