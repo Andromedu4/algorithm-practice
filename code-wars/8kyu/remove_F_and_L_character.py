@@ -15,5 +15,5 @@ print(remove_aboba(text))
 
 def remove_char(s):
     return s[1:-1]
-
+1
 """
