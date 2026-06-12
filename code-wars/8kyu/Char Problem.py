@@ -19,3 +19,12 @@ def get_age(age):
     	if x.isdigit():
         	return int(x) 
 """
+
+"""
+Solution 3
+
+import re
+
+def get_age(age):
+    return int(re.search(r"\d+", age).group())
+"""
