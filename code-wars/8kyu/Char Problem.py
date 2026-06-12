@@ -10,3 +10,12 @@ def get_age(age):
     return int(age[0])
 
 print(get_age("5 year old"))
+
+"""
+#Solution 2
+
+def get_age(age):
+    for x in age:
+    	if x.isdigit():
+        	return int(x) 
+"""
