@@ -7,3 +7,8 @@ Example: (Input --> Output)
 "aba" --> false
 "moOse" --> false (ignore letter case)
 """
+
+#First Solution
+def is_isogram(string):
+    return len(string) == len(set(string.lower()))
+
