@@ -3,7 +3,7 @@ Create a function that returns the sum of the two lowest positive numbers given 
 
 For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 
-[10, 343445353, 3453445, 345354535353] should return 345345.
+[10, 343445353, 3453445, 34535535353] should return 345345.
 """
 def sum_two_smallest_numbers(numbers):
     return sum(sorted(numbers)[:2])
