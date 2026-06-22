@@ -10,3 +10,6 @@ Return true if you're better, else false!
 Note:
 Your points are not included in the array of your class's points. Do not forget them when calculating the average score!
 """
+#Solution 1
+def better_than_average(class_points, your_points):
+    return your_points > sum(class_points) / len(class_points)
