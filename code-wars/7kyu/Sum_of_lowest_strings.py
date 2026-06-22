@@ -5,5 +5,10 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 
 [10, 343445353, 3453445, 34535535353] should return 34535.
 """
+
+#Solution
+
+x = [10, 2, 1, 5]
 def sum_two_smallest_numbers(numbers):
     return sum(sorted(numbers)[:2])
+print(sum_two_smallest_numbers(x))
