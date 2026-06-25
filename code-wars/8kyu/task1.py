@@ -1,10 +1,4 @@
-"""
-There was a test in your class and you passed it. Congratulations!
 
-But you're an ambitious person. You want to know if you're better than the average student in your class.
-
-Your points are not included in the array of your class's points. Do not forget them when calculating the average score!
-"""
 def better_than_average(class_points, your_points):
     return your_points > sum(class_points) / len(class_points)
 
