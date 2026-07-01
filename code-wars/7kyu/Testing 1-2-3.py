@@ -10,3 +10,7 @@ Examples: (Input --> Output)
 [] --> []
 ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 """
+
+# Solution 1
+def number(lines):
+    return [f"{counter}: {line}" for counter, line in enumerate(lines, start=1)]
