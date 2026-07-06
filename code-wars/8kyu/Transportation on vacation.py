@@ -1,3 +1,5 @@
+rental_car_cost = 200
+
 #Solution 1
 def rental_car_cost(d):
     result = d * 40
