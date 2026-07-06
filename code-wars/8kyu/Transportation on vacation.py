@@ -8,5 +8,5 @@ def rental_car_cost(d):
     return result
 
 #Solution 2
-def rental_car_cost(d):
+def rental_car_cost1(d):
   return d * 40 - (d > 2) * 20 - (d > 6) * 30
