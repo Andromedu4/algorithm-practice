@@ -1,4 +1,4 @@
-rental_car_cost = 200
+x = 5
 
 #Solution 1
 def rental_car_cost(d):
@@ -12,3 +12,4 @@ def rental_car_cost(d):
 #Solution 2
 def rental_car_cost1(d):
   return d * 40 - (d > 2) * 20 - (d > 6) * 30
+print(rental_car_cost(x))
