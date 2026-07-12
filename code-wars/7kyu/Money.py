@@ -12,3 +12,13 @@ Example:
   Let T be the Tax Rate = 0.18
   Let D be the Desired Sum = 1100.00
 """
+
+
+def calculate_years(principal, interest, tax, desired):
+    years = 0
+
+    while principal < desired:
+        principal += (interest * principal) * (1 - tax)
+        years += 1
+
+    return years
