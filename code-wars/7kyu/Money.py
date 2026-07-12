@@ -13,6 +13,13 @@ Example:
   Let D be the Desired Sum = 1100.00
 """
 
+from math import ceil, log
+
+
+def calculate_years(principal, interest, tax, desired):
+    if principal >= desired: return 0
+
+    return ceil(log(float(desired) / principal, 1 + interest * (1 - tax)))
 
 def calculate_years(principal, interest, tax, desired):
     years = 0
@@ -22,3 +29,4 @@ def calculate_years(principal, interest, tax, desired):
         years += 1
 
     return years
+
