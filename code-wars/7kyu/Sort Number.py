@@ -6,3 +6,6 @@ For example:
 solution([1,2,3,10,5]) # should return [1,2,3,5,10]
 solution(None) # should return []
 """
+
+def solution(nums):
+    return sorted(nums) if nums else []
