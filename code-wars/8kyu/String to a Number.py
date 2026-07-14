@@ -12,3 +12,7 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 """
+
+#Solution 1
+def string_to_number(s):
+    return int(s)
