@@ -8,3 +8,6 @@ Floats with decimal part non equal to zero are considered UNeven for this kata.
 
 def is_even(n):
     return n%2 == 0
+
+def is_even2(n):
+    return not n % 2
