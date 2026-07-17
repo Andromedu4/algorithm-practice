@@ -10,10 +10,11 @@ Note: If a number is a multiple of both 3 and 5, only count it once.
 Courtesy of projecteuler.net (Problem 1)
 """
 
-
+#Solution 1
 def solution1(number):
     return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
 
+#Solution 2
 def solution2(number):
     sum = 0
     for i in range(number):
